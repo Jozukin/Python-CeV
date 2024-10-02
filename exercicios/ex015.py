@@ -1,0 +1,6 @@
+dia = int(input('Por quantos dias você deseja alugar o carro? '))
+diavalor = float(input('Qual o preço por dia? R$'))
+km = float(input('Quantos quilômetros você rodou com o carro? '))
+kmvalor = float(input('Qual o preço adicional por quilômetro rodado? R$'))
+valor = (dia * diavalor) + (km * kmvalor)
+print(f'O preço total a pagar é de R${valor:.2f}')
