@@ -1,0 +1,8 @@
+n = input('Digite Algo: ')
+print(f'O tipo primitivo do número é: {type(n)}')
+print(f'É um número? {n.isnumeric()}')
+print(f'É/São letra(s)? {n.isalpha()}')
+print(f'Está em caixa alta? {n.isupper()}')
+print(f'Está em caixa baixa? {n.islower()}')
+print(f'Está capitalizada? {n.istitle()}')
+# Tipos primitivos: int (inteiro), float (flutuante/real), bool (booleano), str (string)
